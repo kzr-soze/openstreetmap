@@ -4,11 +4,13 @@ package is below, after the instructions for how to use this fork
 
 To use:
 
-1. Obtain the `map.osm` file and place it within the `data/` subfolder
+1. Create a subfolder called `data/` within the main directory 
 
-2. Add the `Dependencies` folder and all subfolders to the file path before running
+2. Obtain the `map.osm` file and place it within the `data/` subfolder
 
-3. Run `Extract_Adjacency.m` to create a folder under data containing the adjacency matrix
+3. Add the `Dependencies` folder and all subfolders to the file path before running
+
+4. Run `Extract_Adjacency.m` to create a folder under data containing the adjacency matrix
 for the map data as well as all indices, node ids, and geographic locations needed
 to label the rows and columns of the matrix.
 
