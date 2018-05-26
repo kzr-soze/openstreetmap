@@ -1,3 +1,22 @@
+This is a fork of the openstreetmap package for Matlab written by Ioannis Filippidis and available at https://github.com/johnyf/openstreetmap.
+Filippidis has licensed it under the 2-clause BSD license. The original README file for the
+package is below, after the instructions for how to use this fork
+
+To use:
+
+1. Obtain the `map.osm` file and place it within the `data/` subfolder
+
+2. Add the `Dependencies` folder and all subfolders to the file path before running
+
+3. Run `Extract_Adjacency.m` to create a folder under data containing the adjacency matrix
+for the map data as well as all indices, node ids, and geographic locations needed
+to label the rows and columns of the matrix.
+
+The matrix is formatted as a tab-separated-value .txt file.
+
+
+Original README:
+
 Summary
 -------
 Load map, extract connectivity, plot road network & find shortest paths from OpenStreetMap `XML` file.

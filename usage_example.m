@@ -17,8 +17,10 @@
 %
 % 2010.11.25 (c) Ioannis Filippidis, jfilippidis@gmail.com
 
+close all;
+
 %% name file
-openstreetmap_filename = 'map.osm';
+openstreetmap_filename = 'map2.osm';
 %map_img_filename = 'map.png'; % image file saved from online, if available
 
 %% convert XML -> MATLAB struct
